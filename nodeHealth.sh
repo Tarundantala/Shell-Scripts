@@ -22,4 +22,4 @@ free -g
 #echo "Print the CPU"
 nproc
 
-ps-ef | grep "azure" | awk -F " " 'print $2'
+ps-ef | grep "what you want to search" | awk -F " " 'print $Column Number'
