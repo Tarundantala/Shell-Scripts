@@ -1,0 +1,5 @@
+- name: Upload artifact to jfrog
+        run: |
+          cd ${WORKSPACE}/f2d2-delvry/bw.mc-files-F2D2-DELVRY.application/target
+          ls -lh
+          curl -H "X-JFrog-Art-Api:cmVmdGtuOjAxOjE3MTUxNzQyNDM6TUxodWl3SFhUZ2FMU2hHUFkzREd3VEpmTTYy" -T ./bw.mc-files-F2D2-DELVRY.application-1.0.30.1.ear "https://sanofi.jfrog.io/artifactory/maven-chc-maven-local/sample-app/"
