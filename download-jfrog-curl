@@ -1,0 +1,1 @@
+curl -u <username>:<password_or_api_key> -O <artifact_url>
